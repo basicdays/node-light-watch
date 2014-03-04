@@ -1,0 +1,25 @@
+{
+  "name": "light-watch",
+  "version": "0.1.0",
+  "description": "Lightweight File Watcher",
+  "main": "index.js",
+  "bin": {"light-watch": "./index.js"},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:basicdays/node-light-watch.git"
+  },
+  "keywords": [
+    "Watch",
+    "File"
+  ],
+  "author": "basicdays <info@basicdays.com> (http://basicdays.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basicdays/node-light-watch/issues"
+  },
+  "homepage": "https://github.com/basicdays/node-light-watch",
+  "dependencies": {
+    "commander": "^2.1.0",
+    "node-watch": "^0.3.4"
+  }
+}
